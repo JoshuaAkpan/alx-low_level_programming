@@ -56,7 +56,7 @@ int main(void)
 			printf(", ");
 		else
 			printf("\n");
-		i++
+		i++;
 	}
 	return (0);
 }
