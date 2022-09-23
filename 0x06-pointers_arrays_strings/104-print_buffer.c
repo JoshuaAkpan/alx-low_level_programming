@@ -7,7 +7,6 @@
  * @size: size
  * Return: void
  */
-
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
@@ -19,7 +18,6 @@ void print_buffer(char *b, int size)
 		printf("\n");
 		return;
 	}
-
 	while (o < size)
 	{
 		j = size - o < 10 ? size - o : 10;
@@ -29,25 +27,18 @@ void print_buffer(char *b, int size)
 		{
 			if (i < j)
 				printf("%02x", *(b + o + i));
-
 			else
 				printf("  ");
-
 			if (i % 2)
-			{
 				printf(" ");
-
-			}
 		}
-
 		for (i = 0; i < j; i++)
 		{
 			int c = *(b + o + i);
 
 			if (c < 32 || c > 132)
-			{
 				c = '.';
-			}
+
 			printf("%c", c);
 		}
 		printf("\n");
