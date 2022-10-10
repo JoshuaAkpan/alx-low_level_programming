@@ -1,4 +1,4 @@
 #ifndef JOSH
-	#define SIZE 1024
-	#define JOSH
+#define JOSH
+#define SIZE 1024
 #endif
