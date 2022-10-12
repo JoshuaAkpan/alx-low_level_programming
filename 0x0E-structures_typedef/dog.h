@@ -9,12 +9,12 @@
  *
  * Description: describes the dog
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+} dog_t;
 
 /**
  *init_dog - a function
