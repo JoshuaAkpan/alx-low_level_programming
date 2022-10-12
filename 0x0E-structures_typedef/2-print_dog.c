@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "dog.h"
 
+/**
+ * print_dog - prints dog details
+ *
+ * @d: pointer to a dog struct
+ *
+ * Return: void
+ */
 void print_dog(struct dog *d)
 {
 	if (d->name == NULL)
